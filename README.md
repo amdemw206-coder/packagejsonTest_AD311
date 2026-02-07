@@ -25,7 +25,7 @@ go to your terminal (ensure you are inside your project folder) and run these co
     - Wildcard (*) Allows any version. (Generally a bad idea for stability!)
     - No Symbol only installs the specific version listed.
 
-### The Purpose of package-lock.json
+### The Purpose of package-lock.json: 
 - While package.json uses flexible ranges (like the ^ or ~ we discussed), package-lock.json pins down the exact version of every single dependency—and their dependencies—at the moment of installation. 
 
 - It is a common mistake to add package-lock.json to .gitignore. Here is why you should always include it in your repository:

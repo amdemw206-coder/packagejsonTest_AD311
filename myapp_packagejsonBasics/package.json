@@ -1,0 +1,33 @@
+{
+  "name": "myapp_packagejsonbasics",
+  "version": "1.0.0",
+  "description": "testing package.json for a assignment ",
+  "keywords": [
+    "Node.js",
+    "NPM"
+  ],
+  "homepage": "https://github.com/amdemw206-coder/packagejsonTest_AD311#readme",
+  "bugs": {
+    "url": "https://github.com/amdemw206-coder/packagejsonTest_AD311/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amdemw206-coder/packagejsonTest_AD311.git"
+  },
+  "license": "ISC",
+  "author": "Amde",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11"
+  }
+}
